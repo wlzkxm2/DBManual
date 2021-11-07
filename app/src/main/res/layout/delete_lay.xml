@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_delteInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="삭제할 이름을 입력해주세요" />
+
+    <EditText
+        android:id="@+id/edit_Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="삭제할 이름"
+        android:inputType="textPersonName" />
+
+</LinearLayout>
